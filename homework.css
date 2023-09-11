@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    background-color: #E5526A;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.nav_logo{
+    width: 400px;
+    height: 80px;
+    object-fit: cover;
+    margin: 20px;   
+}
+.link{
+    margin: 20px;    
+}
+.info_link {
+    display: flex;
+    gap:14px;
+    padding: 20px;  
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main{
+    margin-top: 80px;
+    font-size: 30px;
+    position: absolute;
+    top: 80px;
+ }
+ h1{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+ }
